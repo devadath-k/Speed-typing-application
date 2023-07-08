@@ -29,6 +29,7 @@ quote_input.addEventListener('input', ()=>{
         }
     })
     if(correct){
+        startTime=new Date;
         renderQuate();
     }
 })
